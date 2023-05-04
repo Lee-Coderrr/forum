@@ -1,0 +1,24 @@
+{{> layouts/header}}
+
+{{# article }}
+<form class="container" action="/articles/update" method="post">
+
+    <div class="mb-3">
+        <input type="hidden" name="id" value="{{id}}">
+
+        <label class="form-label">Title</label>
+        <input type="text" class="form-control" name="title" value="{{title}}">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Content</label>
+        <input type="text" class="form-control" name="content" value="{{content}}"">
+    </div>
+    <div class=" mb-3 form-check">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{{/ article }}
+
+
+{{> layouts/footer}}
