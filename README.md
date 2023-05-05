@@ -15,8 +15,7 @@ Spring Boot를 사용한 온라인 게시판 프로젝트입니다. 이 프로�
 - Spring Data JPA
 - Mustache
 - Lombok
-- PostgreSQL
-- H2 Database
+- 데이터베이스(둘 중 선택 가능): PostgreSQL, H2 Database
 
 ## 구현
 
