@@ -1,6 +1,6 @@
-# Spring Boot 온라인 게시판
+# Spring Boot 게시판
 
-Spring Boot를 사용한 온라인 게시판 프로젝트입니다. 이 프로젝트는 게시글 및 댓글의 CRUD 기능을 구현합니다.
+Spring Boot를 사용한 게시판 프로젝트입니다. 이 프로젝트는 게시글 및 댓글의 CRUD 기능을 구현합니다.
 
 ## 기능
 
